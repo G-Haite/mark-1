@@ -1,13 +1,13 @@
-.h2{
-    padding-bottom: 15px;
+*{
+    box-sizing: border-box;
 }
 
 .grid-container{
-    margin-left: 1em;
+    margin: 1em 2em;
     display: grid;
-    grid-template-rows: 30px 30px 30px;
-    grid-template-columns: 400px 400px 400px;
-    margin-bottom: 10px;
+    grid-template-rows: repeat(3, 30px);
+    grid-template-columns: repeat(3, 400fr);
+    border: 2px solid #000000;
 }
 
 .grid-item{
