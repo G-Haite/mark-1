@@ -1,0 +1,33 @@
+.comentario{
+	height: 200px;
+	width: 90%;
+	text-align: left;
+	resize: none;
+	padding: 15px;
+}
+
+h2, h3, aside{
+	padding-bottom: 10px;
+}
+
+h1, h2, h3, aside{
+	color: #ff9900;
+}
+
+.boton{
+	margin: 5px 0;
+	border: none;
+	background-color: #ddd;
+}
+
+.boton:hover{
+	background-color: #aaa;
+}
+
+.icono{
+	background-color: #fff;
+}
+
+body{
+	background-color: /*#05a*/ #3366ff;
+}

@@ -1,0 +1,39 @@
+*{
+	text-align: center;
+}
+
+.nav__li:hover > a, footer:hover > a{
+	color: lightblue;
+}
+
+.nav__li{
+	display: inline-block;
+}
+
+nav{
+	padding: 5px;
+}
+
+nav, footer{
+	background-color: blue;
+}
+
+.nav__li a{
+	color: white;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-right: 20px;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+}
+
+footer{
+	text-align: center;
+	color: white;
+}

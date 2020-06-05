@@ -1,0 +1,18 @@
+h1, h2{
+	padding: 10px;
+}
+
+.email, .password{
+	text-align: center;
+	margin: 0px 0px 5px 0px;
+}
+
+.h{
+	margin: 0; 
+	text-align: center;
+}
+
+form{
+	margin: 10px;
+	text-align: center;
+}	
