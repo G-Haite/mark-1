@@ -1,0 +1,21 @@
+.h2{
+    padding-bottom: 15px;
+}
+
+.grid-container{
+    margin-left: 1em;
+    display: grid;
+    grid-template-rows: 30px 30px 30px;
+    grid-template-columns: 400px 400px 400px;
+    margin-bottom: 10px;
+}
+
+.grid-item{
+    border: 2px solid #000000;
+}
+
+.botones{
+    text-align: right;
+    margin-right: 5em;
+    margin-bottom: 20px;
+}

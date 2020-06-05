@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="mi_cuenta.css">
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet"  type="text/css" href="estilo nav.css">
     <link rel="icon" href="Icono.png">
@@ -30,29 +31,26 @@
     </nav>
 </header>
     <div>
-        <h1>Pedidos La Salle</h1>
+        <h1>Mi cuenta</h1>
     </div>
-    <div>
-        <h2>Mi Cuenta</h2>
+    <div class="h2">
+        <h2>Historial pedidos</h3>
     </div>
-    <div>
-        <h3>Historial pedidos</h3>
-        <table>
-            <tr>
-                <td><b>Pedido</b></td>
-                <td><b>Total</b></td>
-                <td><b>Fecha</b></td>
-            </tr>
-            <tr>
-                <td>Hamburguesa + Coca</td>
-                <td>$1.500</td>
-            </tr>
-            <tr>
-               <td>Ensalada + Agua</td>
-                <td>$1.000</td>
-            </tr>
-        </table>
+    <div class="grid-container">
+            <div class="grid-item"><b>Pedido</b></div>
+            <div class="grid-item"><b>Total</b></div>
+            <div class="grid-item"><b>Fecha</b></div>
+            <div class="grid-item">Hamburguesa + Coca</div>
+            <div class="grid-item">$1.500</div>
+            <div class="grid-item">5/4/2020</div>
+            <div class="grid-item">Ensalada + Agua</div>
+            <div class="grid-item">$1.000</div>
+            <div class="grid-item">6/2/2020</div>  
     </div>
+    <form class="botones">
+        <input type="submit" value="Anterior">
+        <input type="submit" value="Posterior">
+    </form>
 <footer>
     <h4>Copyrigth - Todos los derechos reservados</h4>
     <p><b>Contactanos</b></p>
