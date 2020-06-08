@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="estructura.css">
      <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet"  type="text/css" href="estilo nav.css">
@@ -16,25 +17,40 @@
     <meta name = "robots" content="follow">
 </head>
 <body>
-<header>
-    <img src="Icono.png" alt="Logo La Salle Florida">
-    <nav class="nav">
-        <u1>
-            <li class="nav__li"><a href="index.html">Inicio</a></li>
-            <li class="nav__li"><a href="inicia_sesion.html">Inicia Sesión</a></li>
-            <li class="nav__li"><a href="hace_tu_pedido.html">Hace Tu Pedido</a></li>
-            <li class="nav__li"><a href="mi_cuenta.html">Mi cuenta</a></li>
-            <li class="nav__li"><a href="comentarios.html">Deja tu opinión</a></li>
-            <li class="nav__li"><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
-            <li class="nav__li"><a href="ayuda.html">Ayuda</a></li>
-        </u1>
-    </nav>
-</header>
-    <h1>Pedidos La Salle</h1>
-<footer>
-    <h4>Copyrigth - Todos los derechos reservados</h4>
-    <p><b>Contactanos</b></p>
-    <a class="foot" href="http://www.ilasalle.com.ar/" target = "BLANK">La Salle</a>
-</footer>
+    <div class="grid-container">
+        <header class="grid-item grid-header">
+            <div class="icono">
+                <img src="Icono.png" alt="Logo La Salle Florida">
+            </div>
+            <nav class="nav">
+                <u1>
+                    <li class="nav__li"><a href="index.html">Inicio</a></li>
+                    <li class="nav__li"><a href="inicia_sesion.html">Inicia Sesión</a></li>
+                    <li class="nav__li"><a href="hace_tu_pedido.html">Hace Tu Pedido</a></li>
+                    <li class="nav__li"><a href="mi_cuenta.html">Mi cuenta</a></li>
+                    <li class="nav__li"><a href="comentarios.html">Deja tu opinión</a></li>
+                    <li class="nav__li"><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
+                    <li class="nav__li"><a href="ayuda.html">Ayuda</a></li>
+                </u1>
+            </nav>
+        </header>
+        <div class="grid-item grid-main">
+            <h1>Pedidos La Salle</h1>
+        <div class="anuncios_container">
+            <div class="anuncios" >
+                <li class="item">Antes que nada inicia sesión <a href="inicia_sesion.html">Aca</a> para poder acceder a todas las funciones</li>
+                <li class="item">Si te gusto la página o si tenes alguna idea hacenoslo saber <a href="comentarios.html">Aca</a> </li> 
+                <li class="item">Si tenes alguna duda consultanos <a href="comentarios.html">Aca</a> </li>
+            </div>
+        </div>
+        </div>
+        <div class="grid-item grid-footer">
+            <footer>
+                <h4>Copyrigth - Todos los derechos reservados</h4>
+                <p><b>Contactanos</b></p>
+                <a class="foot" href="http://www.ilasalle.com.ar/" target = "BLANK">La Salle</a>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>

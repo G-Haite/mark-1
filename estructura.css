@@ -1,0 +1,23 @@
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer";
+    grid-template-rows: repeat(auto-fill, 1fr);
+    height: 100vh;
+}
+
+.grid-header{
+    grid-area: header;
+}
+
+.grid-main{
+    grid-area: main;
+}
+
+.grid-footer{
+    align-self: end;
+    grid-area: footer;
+}
+

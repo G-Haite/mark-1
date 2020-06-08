@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="estructura.css">
     <link rel="stylesheet"  type="text/css" href="ayuda.css">
     <link rel="stylesheet"  type="text/css" href="estilo nav.css">
     <link rel="stylesheet" type="text/css" href="normalize.css">
@@ -16,35 +17,45 @@
     <meta name = "robots" content="follow">
 </head>
 <body>
-<header>
-    <img src="Icono.png" alt="Logo La Salle Florida">
-    <nav class="nav">
-        <u1>
-            <li class="nav__li"><a href="index.html">Inicio</a></li>
-            <li class="nav__li"><a href="inicia_sesion.html">Inicia Sesión</a></li>
-            <li class="nav__li"><a href="hace_tu_pedido.html">Hace Tu Pedido</a></li>
-            <li class="nav__li"><a href="mi_cuenta.html">Mi cuenta</a></li>
-            <li class="nav__li"><a href="comentarios.html">Deja tu opinión</a></li>
-            <li class="nav__li"><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
-            <li class="nav__li"><a href="ayuda.html">Ayuda</a></li>
-        </u1>
-    </nav>
-</header>
-<div>
-  <h1>Pedi con La Salle</h1>
-</div>
-<div>
-    <h2 class="sub">Contactanos</h2>
-</div>
-<div class="contactos">
-    <h3 class="h">Directora Escuela Técnica – Stella Menéndez</h3>
-    <a href="dirsectec@lasalleflorida.edu.ar">dirsectec@lasalleflorida.edu.ar</a>
-    <h3 class="h">Vicedirector Escuela Técnica – Julián Petrone</h3>
-    <a href="vicesectec@lasalleflorida.edu.ar">vicesectec@lasalleflorida.edu.ar</a>
-</div>
-<footer>
-    <h4>Copyrigth - Todos los derechos reservados</h4>
-    <p><b>Contactanos</b></p>
-    <a class="foot" href="http://www.ilasalle.com.ar/" target = "BLANK">La Salle</a>
-</footer>
+    <div class="grid-container">
+        <header class="grid-item grid-header">
+            <div class="icono">
+                <img src="Icono.png" alt="Logo La Salle Florida">
+            </div>
+            <nav class="nav">
+                <u1>
+                    <li class="nav__li"><a href="index.html">Inicio</a></li>
+                    <li class="nav__li"><a href="inicia_sesion.html">Inicia Sesión</a></li>
+                    <li class="nav__li"><a href="hace_tu_pedido.html">Hace Tu Pedido</a></li>
+                    <li class="nav__li"><a href="mi_cuenta.html">Mi cuenta</a></li>
+                    <li class="nav__li"><a href="comentarios.html">Deja tu opinión</a></li>
+                    <li class="nav__li"><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
+                    <li class="nav__li"><a href="ayuda.html">Ayuda</a></li>
+                </u1>
+            </nav>
+        </header>
+        <div class="grid-item grid-main">
+            <div>
+                <h1>Pedi con La Salle</h1>
+            </div>
+            <div class="contactos">
+                <h2 class="sub">Contactanos</h2>
+                <div class="contacto-1">
+                    <h3 class="h">Directora Escuela Técnica – Stella Menéndez</h3>
+                    <a href="dirsectec@lasalleflorida.edu.ar">dirsectec@lasalleflorida.edu.ar</a>
+                </div>
+                <div class="contacto-2">
+                    <h3 class="h">Vicedirector Escuela Técnica – Julián Petrone</h3>
+                    <a href="vicesectec@lasalleflorida.edu.ar">vicesectec@lasalleflorida.edu.ar</a>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item grid-footer">
+            <footer>
+                <h4>Copyrigth - Todos los derechos reservados</h4>
+                <p><b>Contactanos</b></p>
+                <a class="foot" href="http://www.ilasalle.com.ar/" target = "BLANK">La Salle</a>
+            </footer>
+        </div>
+    </div>
 </body>

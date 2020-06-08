@@ -1,13 +1,30 @@
+body{
+	background: radial-gradient(circle, #33acdb 70%, #0079a8);
+}
+
 .sub{
-	padding-left: 10px;
+	/*padding-left: 10px;*/
 }
 
 .sub, .contactos, .h{
-	text-align: left;
+	/*text-align: left;*/
+}
+
+h2, h3{
+	margin-bottom: 0.5em;
+}
+
+.contacto-1{
+	margin-bottom: 1em;
 }
 
 .contactos{
-	padding-left: 10px;
+	margin-top: 0.5em;
+	padding: 0.8em 1em;
+	background: #dddddd;
+	display: inline-block;
+	/*padding-left: 10px;*/
+	min-width: 3em ;
 }
 
 a{

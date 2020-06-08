@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="estructura.css">
     <link rel="stylesheet" type="text/css" href="mi_cuenta.css">
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet"  type="text/css" href="estilo nav.css">
@@ -16,45 +17,53 @@
     <meta name = "robots" content="follow">
 </head>
 <body>
-<header>
-    <img src="Icono.png" alt="Logo La Salle Florida">
-    <nav class="nav">
-        <u1>
-            <li class="nav__li"><a href="index.html">Inicio</a></li>
-            <li class="nav__li"><a href="inicia_sesion.html">Inicia Sesión</a></li>
-            <li class="nav__li"><a href="hace_tu_pedido.html">Hace Tu Pedido</a></li>
-            <li class="nav__li"><a href="mi_cuenta.html">Mi cuenta</a></li>
-            <li class="nav__li"><a href="comentarios.html">Deja tu opinión</a></li>
-            <li class="nav__li"><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
-            <li class="nav__li"><a href="ayuda.html">Ayuda</a></li>
-        </u1>
-    </nav>
-</header>
-    <div>
-        <h1>Mi cuenta</h1>
-    </div>
-    <div class="h2">
-        <h2>Historial pedidos</h3>
-    </div>
     <div class="grid-container">
-            <div class="grid-item"><b>Pedido</b></div>
-            <div class="grid-item"><b>Total</b></div>
-            <div class="grid-item"><b>Fecha</b></div>
-            <div class="grid-item">Hamburguesa + Coca</div>
-            <div class="grid-item">$1.500</div>
-            <div class="grid-item">5/4/2020</div>
-            <div class="grid-item">Ensalada + Agua</div>
-            <div class="grid-item">$1.000</div>
-            <div class="grid-item">6/2/2020</div>  
+        <header class="grid-item grid-header">
+            <div class="icono">
+                <img src="Icono.png" alt="Logo La Salle Florida">
+            </div>
+            <nav class="nav">
+                <u1>
+                    <li class="nav__li"><a href="index.html">Inicio</a></li>
+                    <li class="nav__li"><a href="inicia_sesion.html">Inicia Sesión</a></li>
+                    <li class="nav__li"><a href="hace_tu_pedido.html">Hace Tu Pedido</a></li>
+                    <li class="nav__li"><a href="mi_cuenta.html">Mi cuenta</a></li>
+                    <li class="nav__li"><a href="comentarios.html">Deja tu opinión</a></li>
+                    <li class="nav__li"><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
+                    <li class="nav__li"><a href="ayuda.html">Ayuda</a></li>
+                </u1>
+            </nav>
+        </header>
+        <div class="grid-item grid-main">
+            <div>
+                <h1>Mi cuenta</h1>
+            </div>
+            <div class="h2">
+                <h2>Historial pedidos</h3>
+            </div>
+            <div class="grid-tabla">
+                    <div class="grid--item"><b>Pedido</b></div>
+                    <div class="grid--item"><b>Total</b></div>
+                    <div class="grid--item"><b>Fecha</b></div>
+                    <div class="grid--item">Hamburguesa + Coca</div>
+                    <div class="grid--item">$1.500</div>
+                    <div class="grid--item">5/4/2020</div>
+                    <div class="grid--item">Ensalada + Agua</div>
+                    <div class="grid--item">$1.000</div>
+                    <div class="grid--item">6/2/2020</div>  
+            </div>
+            <form class="botones">
+                <input type="submit" value="Anterior">
+                <input type="submit" value="Posterior">
+            </form>
+        </div>
+        <div class="grid-item grid-footer">
+            <footer>
+                <h4>Copyrigth - Todos los derechos reservados</h4>
+                <p><b>Contactanos</b></p>
+                <a class="foot" href="http://www.ilasalle.com.ar/" target = "BLANK">La Salle</a>
+            </footer> 
+        </div>    
     </div>
-    <form class="botones">
-        <input type="submit" value="Anterior">
-        <input type="submit" value="Posterior">
-    </form>
-<footer>
-    <h4>Copyrigth - Todos los derechos reservados</h4>
-    <p><b>Contactanos</b></p>
-    <a class="foot" href="http://www.ilasalle.com.ar/" target = "BLANK">La Salle</a>
-</footer>
 </body>
 </html>

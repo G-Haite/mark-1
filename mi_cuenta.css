@@ -1,16 +1,17 @@
-*{
-    box-sizing: border-box;
+body{
+    background: radial-gradient(circle,#fc9, #f96 );
 }
 
-.grid-container{
+.grid-tabla{
     margin: 1em 2em;
     display: grid;
     grid-template-rows: repeat(3, 30px);
     grid-template-columns: repeat(3, 400fr);
     border: 1px solid #000000;
+    background: #ffffff;
 }
 
-.grid-item{
+.grid--item{
     border: 1px solid #000000;
 }
 

@@ -2,6 +2,10 @@
 	text-align: center;
 }
 
+.icono{
+	background: #ffffff;
+}
+
 .nav__li:hover > a, footer:hover > a{
 	color: lightblue;
 }
@@ -34,6 +38,8 @@ footer a{
 }
 
 footer{
+	padding: 0.3em 0;
+	margin-top: 30px;
 	text-align: center;
 	color: white;
 }

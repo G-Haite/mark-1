@@ -1,3 +1,28 @@
-h1{
-	text-align: center;
+body{
+	background: radial-gradient(circle,#ccaaff, #7744dd 60% );
+}
+
+a{
+	color: #ffffff;
+}
+
+a:hover{
+	color: #cccccc;
+}
+
+.anuncios_container{
+	padding: 1em;
+	display: inline-block;
+	border: solid #000000 3px;
+	border-radius: 1em;
+}
+
+.anuncios{
+	font-size: 24px;
+	margin-bottom: 0.5em;
+}
+
+.item{
+	text-align: left;	
+	margin-bottom: 0.5em;
 }
