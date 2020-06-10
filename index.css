@@ -11,10 +11,11 @@ a:hover{
 }
 
 .anuncios_container{
+	margin-top: 5em;
 	padding: 1em;
 	display: inline-block;
 	border: solid #000000 3px;
-	border-radius: 1em;
+	border-radius: 1.3em;
 }
 
 .anuncios{

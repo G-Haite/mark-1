@@ -1,20 +1,28 @@
 body{
-	display: grid;
 	background: radial-gradient(circle,#5588ff, #1144cc 60%);
-	height: 100vh;
 	/*background-color: #05a ;*/
 }
 
+.comentarios{
+	margin-top: 5em;
+	margin-bottom: 1em;
+}
+
 .comentario{
-	height: 200px;
+	margin: 1em 0;
+	height: 15em;
 	width: 90%;
 	text-align: left;
 	resize: none;
-	padding: 15px;
+	padding: 1em;
+}
+h3,{
+	padding-bottom: 3em;
 }
 
-h2, h3, aside{
-	padding-bottom: 10px;
+.texto h2{
+	margin-top: 2em;
+
 }
 
 h1, h2, h3, aside{
@@ -22,8 +30,8 @@ h1, h2, h3, aside{
 }
 
 .boton{
-	margin: 5px 0;
-	border: none;
+	width: 4em;
+	/*border: none;*/
 	background-color: #ddd;
 }
 
