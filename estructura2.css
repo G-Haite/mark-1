@@ -2,8 +2,9 @@
     display: grid;
     grid-template-areas: 
     "header header header"
-    "main main aside"
+    "aside main main "
     "footer footer footer";
+    grid-template-columns: minmax(min-content,15em) minmax(min-content,1fr);
     grid-template-rows: minmax(min-content,16.6vh) minmax(min-content,74.9vh) minmax(min-content,8.5vh);
     height: 100vh;
 }
@@ -15,16 +16,14 @@
 
 .grid-main{
     grid-area: main;
-    text-align: center;
 }
 
 .grid-aside{
     grid-area: aside;
-    border-left: solid #ff9900;
+    margin: 2em;
     text-align: center;
 }
 
 .grid-footer{
     grid-area: footer;
 }
-
