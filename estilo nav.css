@@ -33,7 +33,7 @@ footer a{
 	color: #ffffff;
 }
 
-footer{
+footer,nav{
 	font-size: 1em;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 100;

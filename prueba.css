@@ -1,0 +1,14 @@
+h1{
+    color: red;
+    background-color: lawngreen;
+    border: 12px solid violet;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    text-align: center;
+    margin-left: 200px;
+    font-size: 100px;
+}

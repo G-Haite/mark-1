@@ -4,7 +4,7 @@
     "header header header"
     "aside main main "
     "footer footer footer";
-    grid-template-columns: minmax(min-content,15em) minmax(min-content,1fr);
+    grid-template-columns: minmax(min-content,16em) minmax(min-content,1fr);
     grid-template-rows: minmax(min-content,16.6vh) minmax(min-content,74.9vh) minmax(min-content,8.5vh);
     height: 100vh;
 }
